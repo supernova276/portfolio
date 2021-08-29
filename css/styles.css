@@ -201,6 +201,7 @@ nav .fa{
   margin-top:1%;
   display:flex;
   justify-content:space-between;
+  width:100%;
 }
 .about-col{
   /* specifies initial lenght of the flexible-item */
