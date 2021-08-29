@@ -167,6 +167,10 @@ nav .fa{
   }
   /* this is very important as it stops the body to enter a scrool bar for right=-200 */
   /* if we do not add this we will have a scrollbar along the vw that would take us to -200px */
+   html,body{ 
+    overflow-x:hidden;
+  }
+  
 nav .fa{
   visibility:visible;
   display:block;
