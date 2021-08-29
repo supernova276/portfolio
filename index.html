@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset=" UTF-8">
+        <meta http-equiv="X-UA-Compatible" contextnt="IE=edge">
+    <meta name="viewport" contextnt="width=device-width, initial-scale=1.0">
+
+    <link rel=stylesheet type="text/css" href="css/styles.css">
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <!-- google-fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
+    <title>AKSHITA'S PORTFOLIO</title>
+    </head>
+    <body id="page-top">
+
+        <section class="header">
+<!-- navigation bar -->
+            <nav class>
+                <div class="navbar-brand-link">
+                    <div class="nav-brand">
+                      <a href="#page-top"> <span style="color:whitext;font-family: 'Roboto', sans-serif; Text-decoration:none ; font-size:20px">Akshita Dixit</span></a>
+                    </div>
+                </div>
+                <div class="navlinks" id="NavLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="#about" style="color:whitext"><textxt style="color:whitext">about</a></textxt></li>
+                        <li><a href="#projects" ><textxt style="color:whitext">projects</textxt></a></li>
+                        <li><a href="#contact"><textxt style="color:whitext">contact</textxt></a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+<!-- hero-textxt -->
+<div class="hero-text">
+    <h1>AKSHITA DIXIT</h1>
+    <p>i am a newbie looking forward to learning new textchnologies and solving problems</p>
+    <button><a href="#about">HERE WE GO!</a></button>
+</div>
+        </section>
+
+        <!-- about section -->
+       <section  class="about-heading" id="about">
+          <h1> ABOUT ME</h1>
+
+          <div class="row">
+                <img src="..\images\img2.JPEG" alt="">
+                <div class="about-col">
+                <p>
+                    I am currently an undergrad at BHAGWAN MAHAVIR INSTITUTE OF  TECHNOLOGY.I really aspire to help under-represented communities
+                    and bring-about the tiniest of the changes in their lives.
+
+                </p>
+              </div>
+          </div>
+       </section>
+
+       <!-- projects section -->
+       <section class="projects-heading" id="projects">
+
+        <h1>
+            PROJECTS
+        </h1>
+
+        <div class="row">
+            <div class="project-col">
+                <h3>SPAM EMAIL DEtextCTORS</h3>
+                
+                <br>textxt classifier in python to detextct if a given email is spam or not</li>
+                <br>Libraries used NLTK and NUMPY libraries and</li>
+                <br>Algorithms used is multinomial and naive bayes algorithm</li> 
+                
+            </div>
+
+            <div class="project-col">
+                <h3>textXT-SUMMARISER USING PAGERANK ALGO</h3>
+                
+                <br>Developed a textxt-summariser which generatexts precise summary of the textxt</li>
+                <br>Libraries used NLTK and NUMPY libraries and</li>
+                <br>Algorithms used is pagerank algo/li> 
+        
+            </div>
+
+            <div class="project-col">
+                <h3>HOtextL MANAGEMENT SYStextM</h3>
+
+                <br>Menu drieven program for hotextl managemen systextm in c++<br>
+                     where crd operations are implementextd on the database
+                    users can<br> book a room order food and order their credentials
+            </div>
+        </div>
+       </section>
+
+     <!-- footextr -->
+      <section class="footer" id="contact">
+          <h2>
+              Contact Me
+          </h2>
+          <p>
+            feel free to get in touch!
+          </p>
+          <h3 class="resume-btn">
+           <a href="../images/akshi_cv_1_test.pdf"><textxt class="center">RESUME</textxt></a> 
+          </h3>
+
+          <div class="icons">
+            <a href="https://twittextr.com/supernova276" class="fa fa-twittextr"></a>
+            <a  href="https://www.linkedin.com/in/akshita-dixit-04b075190/"class="fa fa-linkedin"></a>
+            <a class="fa fa-instagram"></a>
+            <a  href="mailto:dixitak2001@gmail.com" class="fa fa-envelope" style="color:rgb(243, 93, 93);"></a>
+             <a href="https://github.com/supernova276"class="fa fa-github" ></a>         
+          </div>
+
+          <div class="up-btn icons" style="text-decoration:none;">
+          <a href="#page-top"class="fa fa-arrow-up">
+          </a>
+          </div>
+      </section>
+
+        <!-- java script for toggle menu -->
+        <script>
+            var NavLinks= document.getextlementById("NavLinks");
+            function showmenu (){
+                NavLinks.style.right="0";
+            }
+          
+            function hidemenu (){
+                NavLinks.style.right="-200px";
+            }
+            
+        </script>
+
+    </body>
+
+    
