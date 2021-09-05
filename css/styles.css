@@ -21,11 +21,11 @@ nav{
   padding:2% 6%;  /* padding here defines the padding for elements that would be inserted in future*/
   justify-content:space-between;
   align-items:center;
-  /* these 2 lines create fixed navbar*/
+  /* these 2 lines create fixed navbar
   position:fixed;
   top:0;
   width:100%;
-  background-color:rgb(57, 57, 238);
+  background-color:rgb(57, 57, 238);*/
 }
 
 .nav-image{
